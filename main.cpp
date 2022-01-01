@@ -93,7 +93,7 @@ void __fastcall printArray2(int** arr, size_t n, size_t m) {
 	}
 }
 
-inline void task2() {
+void task2() {
 	cout << "TASK 2" << endl;
 
 	size_t n, m;
@@ -125,7 +125,7 @@ inline void task2() {
 
 // 3. Написать программу, которая создаст два текстовых файла (*.txt), примерно по 50-100 символов в каждом 
 // (особого значения не имеет с каким именно содержимым). Имена файлов запросить у польлзователя.
-void task3() {
+inline void task3() {
 	cout << "TASK 3" << endl;
 
 	const string str_1 = "string qwerty 123 hello world :3 zxc qwe !!!!!()()()";
@@ -172,7 +172,7 @@ inline void task4() {
 // 5. Написать программу, которая проверяет присутствует ли указанное пользователем при запуске программы слово
 // в указанном пользователем файле (для простоты работаем только с латиницей). 
 // Используем функцию find которая есть в строках std::string.
-void task5() {
+inline void task5() {
 	cout << "TASK 5" << endl;
 
 	string file, word;
